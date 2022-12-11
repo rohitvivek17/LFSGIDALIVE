@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="password_date_of_birth">PASSWORD(DATE OF BIRTH)</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="login">Login</string>
+</resources>

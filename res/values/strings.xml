@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="login_text">Little Flower School \n Sector 9 Gida, Gorakhpur \n www.lfsgidaonline.com \n +917880715889</string>
+    <string name="app_name"> LITTLE FLOWER SCHOOL</string>
+    <string name="app_name1">GIDA </string>
+    <string name="login_user_name"> User Name </string>
+    <string name="login_password"> DOB</string>
+    <string name="login">Login</string>
+    <string name="user_id_adm_no">USER ID(ADM NO)</string>
+    <string name="adm_no">Adm no</string>
+    <string name="password_date_of_birth">PASSWORD(DATE OF BIRTH)</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+
+
+</resources>

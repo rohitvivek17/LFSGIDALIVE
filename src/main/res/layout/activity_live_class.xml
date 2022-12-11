@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".live_class">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginBottom="10dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="111dp"
+            android:layout_height="172dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/login_logo">
+
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/student_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=" "
+                android:textColor="@color/light_yellow"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/student_admno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/light_yellow"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/student_class"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/light_yellow"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:id="@+id/join_live"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Join live class">
+
+    </Button>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"></ProgressBar>
+
+    <Button
+        android:id="@+id/das"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center_horizontal"
+        android:text="Dashboard"></Button>
+
+
+</LinearLayout>
